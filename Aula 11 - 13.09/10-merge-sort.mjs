@@ -11,7 +11,7 @@
 function mergeSort(vetor) {
 
     // Para ser dividio, um vetor precisa ter pelo menos 2 elementos
-    if(vetor.length < 2) return vetor; // Sai da função sem fazer nada
+    if (vetor.length < 2) return vetor; // Sai da função sem fazer nada
 
     // Acah o meio (aproximado) do vetor
     let meio = Math.floor(vetor.length / 2);
