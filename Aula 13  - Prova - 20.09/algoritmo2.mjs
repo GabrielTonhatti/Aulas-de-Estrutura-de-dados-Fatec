@@ -1,0 +1,31 @@
+/*
+    INSTRUÇÕES
+
+    1) Identifique o algoritmo abaixo.
+    2) Faça o mapeamento das variáveis (registre em comentário o propósito de cada uma delas).
+    3) Introduza a função de comparação, de modo que o algoritmo possa ser utilizado com vetores de objetos.
+
+*/
+
+// Método de "busca binária"
+const z = (y, x) => {
+    let w = 0 // Variável da posição inicial do vetor
+    let v = y.length - 1 // Variável da posição final do vetor
+    while(v >= w) {
+        let u = Math.floor((w + v) / 2) // Variável da posição do meio do vetor
+        if(x === y[u]) return u // Se o valor de "x" for igual ao valor de "y" na posição meio(u), então ele retorna a posição atual
+        else if(x > y[u]) w = u + 1 // Se o valor de "x" for maior que o valor de "y" na posição meio, então o valor inicial(w) recebe meio(u) + 1 
+        else v = u - 1 // Se não a variável da posição final(v) recebe meio(u) - 1
+    }
+    return -1
+}
+
+function comparar(posicaoMeio, busca = 'GABRIEL') {
+    if (busca === posicaoMeio.first_name) {
+        return 0;
+    } else if (busca > posicaoMeio.first_name) {
+        return 1;
+    } else {
+        return -1;
+    }
+}
