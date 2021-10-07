@@ -4,7 +4,6 @@
     1) Identifique o algoritmo abaixo.
     2) Faça o mapeamento das variáveis (registre em comentário o propósito de cada uma delas).
     3) Introduza a função de comparação, de modo que o algoritmo possa ser utilizado com vetores de objetos.
-
 */
 
 // a função "z" é o método "Merge Sort"
@@ -36,7 +35,6 @@ const z = y => {
     else u = v.slice(s) // então a sobra vai receber o vetor da direita(v) a partir da posição "s"
     return [...r, ...u] // o vetor final ordenado será a concatenação de r + u
 }
-
 
 let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11];
 
