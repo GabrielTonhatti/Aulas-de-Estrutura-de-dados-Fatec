@@ -56,7 +56,7 @@ function quickSort(array, fnComp, start = 0, end = array.length - 1) {
 
 import { fnComparacao } from '../funcao.mjs';
 
-import { gastos } from '../data/cota-parlamentar-140-mil.mjs';
+import { gastos } from '../dados/cota-parlamentar-140-mil.mjs';
 
 console.time('Tempo de ordenação');
 

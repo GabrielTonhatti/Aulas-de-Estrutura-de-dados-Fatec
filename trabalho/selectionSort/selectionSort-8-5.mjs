@@ -3,7 +3,6 @@ let passadas,
     trocas;
 
 function selectionSort(array, fnComp) {
-
     passadas = 0, comparacao = 0, trocas = 0;
 
     for (let posicaoSel = 0; posicaoSel < array.length - 1; posicaoSel++) {
@@ -36,7 +35,7 @@ function selectionSort(array, fnComp) {
 
 import { fnComparacao } from '../funcao.mjs';
 
-import { gastos } from '../data/cota-parlamentar-8.5-mil.mjs';
+import { gastos } from '../dados/cota-parlamentar-8.5-mil.mjs';
 
 console.time('Tempo de ordenação');
 

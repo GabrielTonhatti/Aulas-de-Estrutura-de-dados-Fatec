@@ -38,6 +38,7 @@ function mergeSort(array, fnComp) {
             posicaoDir++;
 
         }
+
     }
 
     let sobra;
@@ -59,7 +60,7 @@ function mergeSort(array, fnComp) {
 
 import { fnComparacao } from '../funcao.mjs';
 
-import { gastos } from '../data/cota-parlamentar-35-mil.mjs';
+import { gastos } from '../dados/cota-parlamentar-35-mil.mjs';
 
 console.time('Tempo de ordenação');
 
