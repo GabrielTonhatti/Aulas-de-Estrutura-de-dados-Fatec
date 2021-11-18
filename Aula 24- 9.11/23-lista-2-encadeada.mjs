@@ -1,6 +1,5 @@
 import DoublyLinkedList from "./lib/DoublyLinkedList.mjs";
 
-
 const lista = new DoublyLinkedList();
 
 console.log('Lista vazia: %s', lista.print());
